@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4285f4;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+}
+
+.status {
+    background: #fff;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 4px;
+}
+
+.status h2 {
+    margin: 0 0 0.5em;
+}
+
+.status.operational {
+    color: green;
+}
+
+.status.maintenance {
+    color: orange;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 0.9em;
+    color: #555;
+}
